@@ -1,6 +1,6 @@
 // import React from 'react'
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index.scss';
+import baseStyle from './index.module.scss';
 
-ReactDOM.render( < App / > , document.querySelector('#root'));
+ReactDOM.render(< App />, document.querySelector('#root'));
