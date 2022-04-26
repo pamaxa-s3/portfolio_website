@@ -4,7 +4,7 @@ import style from './About.module.scss'
 function About() {
    return (
       <>
-         <div>About</div>
+         <section id='about'>About</section>
       </>
    )
 }

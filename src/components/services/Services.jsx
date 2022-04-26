@@ -3,7 +3,7 @@ import style from './Services.module.scss'
 
 function Services() {
    return (
-      <div>Services</div>
+      <section id='services'>Services</section>
    )
 }
 

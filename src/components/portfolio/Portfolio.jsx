@@ -3,7 +3,7 @@ import style from './Portfolio.module.scss'
 
 function Portfolio() {
    return (
-      <div>Portfolio</div>
+      <section id='portfolio'>Portfolio</section>
    )
 }
 

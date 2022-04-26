@@ -50,7 +50,7 @@ header {
    margin-top: 4rem;
    border-radius: 12rem 12rem 0 0;
    overflow: hidden;
-   padding: 5rem 1.5rem 1.5rem 1.5rem;
+   padding: 6rem 0rem 1.5rem 2.5rem;
 }
 
 // =========== SCROLL DOWN ==========
@@ -63,3 +63,30 @@ header {
    font-weight: 300;
    font-size: 0.9rem;
 }
+
+
+// ================ MEDIA QUERIES ( MEDIUM DEVICES ) ====================
+
+@media screen and (max-width: 1024px) {
+   header {
+      height: 68vh;
+   }
+}
+
+// ================ END MEDIA QUERIES ( MEDIUM DEVICES ) ====================
+
+
+// ================ MEDIA QUERIES ( MEDIUM SMALL ) ====================
+
+@media screen and (max-width: 600) {
+   header {
+      height: 100vh;
+   }
+
+   .header__socials,
+   .scroll__down {
+      display: none;
+   }
+}
+
+// ================ END MEDIA QUERIES ( MEDIUM SMALL ) ====================
