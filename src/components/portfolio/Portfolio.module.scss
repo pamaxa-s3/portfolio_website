@@ -1,0 +1,50 @@
+.container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2.5rem;
+}
+
+.portfolio__item {
+   background: #2c2c6c;
+   padding: 1.2rem;
+   border-radius: 2rem;
+   border: 1px solid transparent;
+   transition: all 0.3s ease 0s;
+
+   @media (any-hover: hover) {
+      &:hover {
+         background: transparent;
+         border-color: rgba(77, 181, 255, 0.4);
+      }
+   }
+
+   & h3 {
+      margin: 1.2rem 0 2rem;
+   }
+}
+
+.portfolio__item_image {
+   border-radius: 1.5rem;
+   overflow: hidden;
+}
+
+.portfolio__item_cta {
+   display: flex;
+   gap: 1rem;
+   margin-bottom: 1rem;
+}
+
+// ================ MEDIA QUERIES ( MEDIUM DEVICES ) ====================
+
+@media screen and (max-width: 1024px) {
+   .container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+   }
+
+   .service {
+      height: auto;
+   }
+}
+
+// ================ END MEDIA QUERIES ( MEDIUM DEVICES ) ====================
